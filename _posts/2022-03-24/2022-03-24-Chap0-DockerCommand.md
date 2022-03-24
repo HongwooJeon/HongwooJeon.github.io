@@ -1,9 +1,9 @@
 ---
-title: Docker
+title: Docker 명령어 정리
 author: Banjung
 date: 2022-03-24 10:00:00 +0800
-categories: [Docker, 명령어]
-tags: [Docker]
+categories: [Docker, Chapter 0]
+tags: [Docker Command]
 math: true
 mermaid: true
 ---
