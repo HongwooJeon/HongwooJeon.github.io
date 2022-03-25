@@ -15,7 +15,8 @@ mermaid: true
   - 함수(Function): 특정 연산을 수행한 뒤, 결과 값을 반환한다.
   - 프로시저(Procedure): 특정 로직을 처리하고 결과 값을 반환하지 않습니다.
 ## 프로시저 생성
-```java
+
+```
 CREATE OR REPLACE PROCEDURE TEST_PROC
 (
     P_MASK_ID IN VARCHAR2,
@@ -29,13 +30,16 @@ VALUES (P_MASK_ID, P_POD_ID, P_DEFECT_COUNT);
 COMMIT;
 
 END TEST_PROC
-```
+`````````
+
 ## 프로시저 실행
-```java
+
+```
 EXEC TEST_PROC('S10G540A', 'RDE', 80);
 ```
 
 ## 프로시저 결과
+
 |MASK_ID|POD_ID|DEFECT_COUNT|
-|---|---|---|
+|---------|---------|---------|
 |S10G540A|RDE|80|
