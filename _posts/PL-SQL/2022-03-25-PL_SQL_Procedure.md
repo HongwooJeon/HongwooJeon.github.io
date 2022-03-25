@@ -2,7 +2,7 @@
 title: 오라클 프로시저(Procedure) 생성 및 실행
 author: Banjung
 date: 2022-03-25 10:00:00 +0800
-categories: [PL/SQL, Oracle Procedure]
+categories: [PL/SQL, Procedure]
 tags: [PL/SQL]
 math: true
 mermaid: true
