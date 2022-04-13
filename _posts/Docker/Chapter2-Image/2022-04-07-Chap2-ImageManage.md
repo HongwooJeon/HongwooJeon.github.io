@@ -1,5 +1,5 @@
 ---
-title: 2. Image 관리
+title: 1. Image 관리
 author: Banjung
 date: 2022-04-07 08:00:00 -0500
 categories: [Docker, Chapter 2(이미지 관리))]
