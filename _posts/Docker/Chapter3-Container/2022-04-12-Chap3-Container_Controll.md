@@ -2,7 +2,7 @@
 title: 2. Container 조작
 author: Banjung
 date: 2022-04-13 08:00:00 -0500
-categories: [Docker, Chapter 3(컨테이터 조작)]
+categories: [Docker, Chapter 3(컨테이터)]
 tags: [Docker Container Controll]
 math: true
 mermaid: true
