@@ -24,11 +24,12 @@ mermaid: true
 - Client: AbstractFactory 와 AbstractProduct 클래스에 선언된 인터페이스를 사용한다.
 
 ## 2 Builder
--복합 객체의 생성 과정과 표현 방법을 분리함으로써 동일한 생성 공정이 서로 다른 표현을 만들 수 있게 한다.
+- 복합 객체의 생성 과정과 표현 방법을 분리함으로써 동일한 생성 공정이 서로 다른 표현을 만들 수 있게 한다.
 
 ### 2.1 구조
 
 ![image](/assets/img/DesignPattern/Builder.png)
+
 
 ### 2.2 설명
 - Builder: Product 객체의 일부 요소들을 생성하기 위한 추상 인터페이스를 정의한다.
@@ -43,6 +44,7 @@ mermaid: true
 
 ![image](/assets/img/DesignPattern/FactoryMethod.png)
 
+
 ### 3.2 설명
 - Product: 팩토리 메소드가 생성하는 객체의 인터페이스를 정의한다.
 - ConcreteProduct: Product 클래스에 정의된 인터페이스를 실제로 구현한다.
@@ -56,6 +58,7 @@ mermaid: true
 
 ![image](/assets/img/DesignPattern/ProtoType.png)
 
+
 ### 4.2 설명
 - Prototype: 자신을 복제하는데 필요한 인터페이스를 정의한다.
 - ConcretePrototype: 자신을 복제하는 오퍼레이션을 구현한다.
@@ -68,6 +71,7 @@ mermaid: true
 
 ![image](/assets/img/DesignPattern/Singleton.png)
 
+
 ### 5.2 설명
-- Singleton: Instance() 오퍼레이션을 정의하여, 유일한 인스턴스로의 접근이 가능하도록 한다. Instance() 오페레이션은 클래스 오퍼레이션이다.
+- Singleton: Instance() 오퍼레이션을 정의하여, 유일한 인스턴스로의 접근이 가능하도록 한다. Instance() 오퍼레이션은 클래스 오퍼레이션이다.
 - 클래스 오퍼레이션이란 C++ 에서는 static 으로 정의되는 멤버함수로 클래스에서 만드는 모든 인스턴스에 걸쳐서 공유하는 함수이다. 이로써 유일한 인스턴스의 생성에 대한 책임을 지게 된다.

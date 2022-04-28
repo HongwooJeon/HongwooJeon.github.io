@@ -17,9 +17,11 @@ mermaid: true
 
 ![image](/assets/img/DesignPattern/Adapter1.png)
 
+
 - 객체합성에 의한 Adapter 패턴
 
 ![image](/assets/img/DesignPattern/Adapter2.png)
+
 
 ### 1.2 설명
 - Target: 클라이언트가 사용할 도메인에 종속적인 인터페이스를 정의하고 있는 클래스이다.
@@ -35,6 +37,7 @@ mermaid: true
 
 ![image](/assets/img/DesignPattern/Bridge.PNG)
 
+
 ### 2.2 설명
 - Abstraction: 추상화 개념에 대한 인터페이스를 제공하고 객체 구현자(Implementor)에 대한 참조자를 관리한다.
 - RefinedAbstraction: 추상화 개념에 정의된 인터페이스를 확장한다.
@@ -48,6 +51,7 @@ mermaid: true
 ### 3.1 구조
 
 ![image](/assets/img/DesignPattern/Composite.PNG)
+
 
 ### 3.2 설명
 - Component: 집합 관계에 정의될 모든 객체에 대한 인터페이스를 정의한다. 모든 클래스에 해당하는 인터페이스에 대해서는 공통의 행위를 구현한다. 전체 클래스에 속한 요소들을 관리하는데 필요한 인터페이스를 정의한다. 순환 구조에서 요소들을 표함하는 전체 클래스로의 접근에 필요한 인터페이스를 정의한다. 필요하다면 공통의 행위는 구현할 수 있다.
@@ -63,6 +67,7 @@ mermaid: true
 
 ![image](/assets/img/DesignPattern/Decorator.png)
 
+
 ### 4.2 설명
 - Component: 동적으로 추가할 서비스를 가질 가능성이 있는 객체들에 대한 인터페이스
 - ConcreteComponent: 추가적인 서비스가 실제로 정의되어야 할 필요가 있는 객체
@@ -77,6 +82,7 @@ mermaid: true
 
 ![image](/assets/img/DesignPattern/facade.png)
 
+
 ### 5.2 설명
 - Facade: 단순하고 일관된 통합 인터페이스를 제공하며, 서브시스템을 구성하는 어떤 클래스가 어떤 요청을 처리해야 하는지를 알고 있으며, 클라이언트의 요청을 해당하는 서브시스템 객체에 전달한다.
 - Subsystem Classes: 서브시스템의 기능성을 구현하고, Façade 객체에 의해 할당된 작업을 실제로 처리하지만 Façade 에 대한 아무런 정보를 갖고 있지 않다.
@@ -87,6 +93,7 @@ mermaid: true
 ### 6.1 구조
 
 ![image](/assets/img/DesignPattern/Flyweight.png)
+
 
 ### 6.2 설명
 - Flyweight: Flyweight 가 받아들일 수 있고, 부가적 상태에서 동작해야 하는 인터페이스를 선언하고 있다.
@@ -101,6 +108,7 @@ mermaid: true
 ### 7.1 구조
 
 ![image](/assets/img/DesignPattern/Proxy.png)
+
 
 ### 7.2 설명
 - Proxy: 실제로 참조할 대상에 대한 참조자를 관리한다. Subject 와 동일한 인터페이스를 제공하여 실제 대상을 대체할 수 있어야 한다. 실제 대상에 대한 접근을 제어하고 실제 대상의 생성과 삭제를 책임진다.
