@@ -14,10 +14,10 @@ mermaid: true
 
 ### 1.1 구조
 - 다중상속을 활용해서 설계한 Adapter 패턴
-![image](/assets/img/DesignPattern/Adapter1_패턴.png)
+![image](/assets/img/DesignPattern/Adapter1.png)
 
 - 객체합성에 의한 Adapter 패턴
-![image](/assets/img/DesignPattern/Adapter2_패턴.png)
+![image](/assets/img/DesignPattern/Adapter2.png)
 
 ### 1.2 설명
 - Target: 클라이언트가 사용할 도메인에 종속적인 인터페이스를 정의하고 있는 클래스이다.
@@ -30,7 +30,7 @@ mermaid: true
 - 구현과 추상화 개념을 분리하여 구현 자체도 하나의 추상화 개념으로 다양한 변형이 가능하고 구현과 독립적으로 인터페이스도 다양함을 가질수 있다.
 
 ### 2.1 구조
-![image](/assets/img/DesignPattern/Bridge_구조.PNG)
+![image](/assets/img/DesignPattern/Bridge.PNG)
 
 ### 2.2 설명
 - Abstraction: 추상화 개념에 대한 인터페이스를 제공하고 객체 구현자(Implementor)에 대한 참조자를 관리한다.
@@ -43,7 +43,7 @@ mermaid: true
 - 클라이언트가 개별적 객체와 복합 객체 모두를 동일하게 다루도록 한다.
 
 ### 3.1 구조
-![image](/assets/img/DesignPattern/Composite_구조.PNG)
+![image](/assets/img/DesignPattern/Composite.PNG)
 
 ### 3.2 설명
 - Component: 집합 관계에 정의될 모든 객체에 대한 인터페이스를 정의한다. 모든 클래스에 해당하는 인터페이스에 대해서는 공통의 행위를 구현한다. 전체 클래스에 속한 요소들을 관리하는데 필요한 인터페이스를 정의한다. 순환 구조에서 요소들을 표함하는 전체 클래스로의 접근에 필요한 인터페이스를 정의한다. 필요하다면 공통의 행위는 구현할 수 있다.
@@ -56,7 +56,7 @@ mermaid: true
 - 기능의 유연한 확장을 위해 상속대신 사용할 수 있는 방법이다.
 
 ### 4.1 구조
-![image](/assets/img/DesignPattern/Decorator_구조.png)
+![image](/assets/img/DesignPattern/Decorator.png)
 
 ### 4.2 설명
 - Component: 동적으로 추가할 서비스를 가질 가능성이 있는 객체들에 대한 인터페이스
@@ -69,7 +69,7 @@ mermaid: true
 - 서브시스템을 좀 더 사용하기 편하게 하기 위해서 높은 수준의 인터패이스를 정의한다.
 
 ### 5.1 구조
-![image](/assets/img/DesignPattern/facade_구조.png)
+![image](/assets/img/DesignPattern/facade.png)
 
 ### 5.2 설명
 - Facade: 단순하고 일관된 통합 인터페이스를 제공하며, 서브시스템을 구성하는 어떤 클래스가 어떤 요청을 처리해야 하는지를 알고 있으며, 클라이언트의 요청을 해당하는 서브시스템 객체에 전달한다.
@@ -79,7 +79,7 @@ mermaid: true
 - 작은 크기의 객체들이 여러 개 있는 경우, 객체를 효과적으로 사용하는 방법으로 객체를 공유하게 한다.
 
 ### 6.1 구조
-![image](/assets/img/DesignPattern/Flyweight_구조.png)
+![image](/assets/img/DesignPattern/Flyweight.png)
 
 ### 6.2 설명
 - Flyweight: Flyweight 가 받아들일 수 있고, 부가적 상태에서 동작해야 하는 인터페이스를 선언하고 있다.
@@ -92,7 +92,7 @@ mermaid: true
 - 다른 객체로의 접근을 통제하기 위해서 다른 객체의 대리자 또는 다른 객체로의 정보 보유자를 제공한다.
 
 ### 7.1 구조
-![image](/assets/img/DesignPattern/Proxy_구조.png)
+![image](/assets/img/DesignPattern/Proxy.png)
 
 ### 7.2 설명
 - Proxy: 실제로 참조할 대상에 대한 참조자를 관리한다. Subject 와 동일한 인터페이스를 제공하여 실제 대상을 대체할 수 있어야 한다. 실제 대상에 대한 접근을 제어하고 실제 대상의 생성과 삭제를 책임진다.
