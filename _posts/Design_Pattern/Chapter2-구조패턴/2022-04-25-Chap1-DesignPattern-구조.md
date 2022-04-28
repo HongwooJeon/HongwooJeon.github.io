@@ -14,9 +14,11 @@ mermaid: true
 
 ### 1.1 구조
 - 다중상속을 활용해서 설계한 Adapter 패턴
+
 ![image](/assets/img/DesignPattern/Adapter1.png)
 
 - 객체합성에 의한 Adapter 패턴
+
 ![image](/assets/img/DesignPattern/Adapter2.png)
 
 ### 1.2 설명
@@ -30,6 +32,7 @@ mermaid: true
 - 구현과 추상화 개념을 분리하여 구현 자체도 하나의 추상화 개념으로 다양한 변형이 가능하고 구현과 독립적으로 인터페이스도 다양함을 가질수 있다.
 
 ### 2.1 구조
+
 ![image](/assets/img/DesignPattern/Bridge.PNG)
 
 ### 2.2 설명
@@ -43,6 +46,7 @@ mermaid: true
 - 클라이언트가 개별적 객체와 복합 객체 모두를 동일하게 다루도록 한다.
 
 ### 3.1 구조
+
 ![image](/assets/img/DesignPattern/Composite.PNG)
 
 ### 3.2 설명
@@ -56,6 +60,7 @@ mermaid: true
 - 기능의 유연한 확장을 위해 상속대신 사용할 수 있는 방법이다.
 
 ### 4.1 구조
+
 ![image](/assets/img/DesignPattern/Decorator.png)
 
 ### 4.2 설명
@@ -69,6 +74,7 @@ mermaid: true
 - 서브시스템을 좀 더 사용하기 편하게 하기 위해서 높은 수준의 인터패이스를 정의한다.
 
 ### 5.1 구조
+
 ![image](/assets/img/DesignPattern/facade.png)
 
 ### 5.2 설명
@@ -79,6 +85,7 @@ mermaid: true
 - 작은 크기의 객체들이 여러 개 있는 경우, 객체를 효과적으로 사용하는 방법으로 객체를 공유하게 한다.
 
 ### 6.1 구조
+
 ![image](/assets/img/DesignPattern/Flyweight.png)
 
 ### 6.2 설명
@@ -92,6 +99,7 @@ mermaid: true
 - 다른 객체로의 접근을 통제하기 위해서 다른 객체의 대리자 또는 다른 객체로의 정보 보유자를 제공한다.
 
 ### 7.1 구조
+
 ![image](/assets/img/DesignPattern/Proxy.png)
 
 ### 7.2 설명

@@ -12,6 +12,7 @@ mermaid: true
 - 구체적인 클래스를 지정하지 않고 관련성을 갖는 객체들의 집합을 생성하거나 서로 독립적인 객체들의 집합을 생성할 수 있는 인터페이스를 제공한다.
 
 ### 1.1 구조
+
 ![image](/assets/img/DesignPattern/AbstractFactory.png)
 
 
@@ -26,6 +27,7 @@ mermaid: true
 -복합 객체의 생성 과정과 표현 방법을 분리함으로써 동일한 생성 공정이 서로 다른 표현을 만들 수 있게 한다.
 
 ### 2.1 구조
+
 ![image](/assets/img/DesignPattern/Builder.png)
 
 ### 2.2 설명
@@ -38,6 +40,7 @@ mermaid: true
 - 객체를 생성하는 인터페이스를 정의하지만, 인스턴스를 만들 클래스의 결정은 서브클래스가 한다. Factory Method 패턴에서는 클래스의 인스턴스를 만드는 시점을 서비클래스로 미룬다.
 
 ### 3.1 구조
+
 ![image](/assets/img/DesignPattern/FactoryMethod.png)
 
 ### 3.2 설명
@@ -50,6 +53,7 @@ mermaid: true
 - 프로토타입의 인스턴스를 이용해서 생성할 객체의 종류를 명세하고 이 프로토타입을 복사해서 새로운 객체를 생성한다.
 
 ### 4.1 구조
+
 ![image](/assets/img/DesignPattern/ProtoType.png)
 
 ### 4.2 설명
@@ -61,6 +65,7 @@ mermaid: true
 - 클래스의 인스턴스는 오직 하나임을 보장하며 이 인스턴스에 접근할 수 있는 방법을 제공한다.
 
 ### 5.1 구조
+
 ![image](/assets/img/DesignPattern/Singleton.png)
 
 ### 5.2 설명
