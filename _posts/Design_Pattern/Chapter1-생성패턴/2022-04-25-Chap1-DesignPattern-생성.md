@@ -50,7 +50,7 @@ mermaid: true
 - 프로토타입의 인스턴스를 이용해서 생성할 객체의 종류를 명세하고 이 프로토타입을 복사해서 새로운 객체를 생성한다.
 
 ### 4.1 구조
-![image](/assets/img/DesignPattern/ProtoType_구조.PNG)
+![image](/assets/img/DesignPattern/ProtoType_구조.png)
 
 ### 4.2 설명
 - Prototype: 자신을 복제하는데 필요한 인터페이스를 정의한다.
