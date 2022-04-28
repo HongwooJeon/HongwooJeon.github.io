@@ -15,12 +15,12 @@ mermaid: true
 ### 1.1 구조
 - 다중상속을 활용해서 설계한 Adapter 패턴
 
-![image](/assets/img/DesignPattern/Adapter1.png)
+![image](/assets/img/DesignPattern/Adapter1.jpg)
 
 
 - 객체합성에 의한 Adapter 패턴
 
-![image](/assets/img/DesignPattern/Adapter2.png)
+![image](/assets/img/DesignPattern/Adapter2.jpg)
 
 
 ### 1.2 설명
@@ -35,7 +35,7 @@ mermaid: true
 
 ### 2.1 구조
 
-![image](/assets/img/DesignPattern/Bridge.PNG)
+![image](/assets/img/DesignPattern/Bridge.jpg)
 
 
 ### 2.2 설명
@@ -50,7 +50,7 @@ mermaid: true
 
 ### 3.1 구조
 
-![image](/assets/img/DesignPattern/Composite.PNG)
+![image](/assets/img/DesignPattern/Composite.jpg)
 
 
 ### 3.2 설명
@@ -65,7 +65,7 @@ mermaid: true
 
 ### 4.1 구조
 
-![image](/assets/img/DesignPattern/Decorator.png)
+![image](/assets/img/DesignPattern/Decorator.jpg)
 
 
 ### 4.2 설명
@@ -80,7 +80,7 @@ mermaid: true
 
 ### 5.1 구조
 
-![image](/assets/img/DesignPattern/facade.png)
+![image](/assets/img/DesignPattern/facade.jpg)
 
 
 ### 5.2 설명
@@ -92,7 +92,7 @@ mermaid: true
 
 ### 6.1 구조
 
-![image](/assets/img/DesignPattern/Flyweight.png)
+![image](/assets/img/DesignPattern/Flyweight.jpg)
 
 
 ### 6.2 설명
@@ -107,7 +107,7 @@ mermaid: true
 
 ### 7.1 구조
 
-![image](/assets/img/DesignPattern/Proxy.png)
+![image](/assets/img/DesignPattern/Proxy.jpg)
 
 
 ### 7.2 설명

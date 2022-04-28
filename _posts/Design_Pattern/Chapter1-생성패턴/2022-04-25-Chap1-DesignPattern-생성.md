@@ -13,7 +13,7 @@ mermaid: true
 
 ### 1.1 구조
 
-![image](/assets/img/DesignPattern/AbstractFactory.png)
+![image](/assets/img/DesignPattern/AbstractFactory.jpg)
 
 
 ### 1.2 설명
@@ -28,7 +28,7 @@ mermaid: true
 
 ### 2.1 구조
 
-![image](/assets/img/DesignPattern/Builder.png)
+![image](/assets/img/DesignPattern/Builder.jpg)
 
 
 ### 2.2 설명
@@ -42,7 +42,7 @@ mermaid: true
 
 ### 3.1 구조
 
-![image](/assets/img/DesignPattern/FactoryMethod.png)
+![image](/assets/img/DesignPattern/FactoryMethod.jpg)
 
 
 ### 3.2 설명
@@ -56,7 +56,7 @@ mermaid: true
 
 ### 4.1 구조
 
-![image](/assets/img/DesignPattern/ProtoType.png)
+![image](/assets/img/DesignPattern/ProtoType.jpg)
 
 
 ### 4.2 설명
@@ -69,7 +69,7 @@ mermaid: true
 
 ### 5.1 구조
 
-![image](/assets/img/DesignPattern/Singleton.png)
+![image](/assets/img/DesignPattern/Singleton.jpg)
 
 
 ### 5.2 설명
