@@ -10,8 +10,6 @@ mermaid: true
 
 ## 유스케이스 다이어그램(Use Case Diagram)
 - 시스템에서 제공해야하는 기능이나 서비스를 명세하는 단계로 사용자와 시스템 사이의 상호작용을 보여준다.
-
-
 ![image](/assets/img/UML/Usecase1.jpg)
 
 
@@ -25,8 +23,6 @@ mermaid: true
 - 시스템이 어떤 서비스 or 기능을 제공하는지를 명시해 주는 것으로 타원형으로 표시한다.
 - 유스케이스의 이름은 상호작용 수행의 목적을 단순하고 명료하게 기술한다.
 - 위 예제의 ATM 시스템은 예금, 조회, 시스템 구동, 시스템 종료, 사용자 인증 기능을 제공해야 한다.
-
-
 ![image](/assets/img/UML/Usecase2.jpg)
 
 
@@ -44,8 +40,7 @@ mermaid: true
 - 보통 시스템의 오른쪽에 그려준다.
 - 위 예제에서는 ATM을 도와주는 외부 시스템으로 인증, 은행 시스템이 있다.
 - `참고` 액터이름은 구체적이면 안된다.
-
-
+  
 ![image](/assets/img/UML/Usecase3.jpg)
 
 
@@ -60,8 +55,7 @@ mermaid: true
 - `표기 방법`
   - 원래의 유스케이스에서 새롭게 만들어진 유스케이스 방향으로 화살표를 점섬으로 연결하고 `<<include>>`를 표기한다.
 
-
-  ![image](/assets/img/UML/Usecase4.jpg)
+![image](/assets/img/UML/Usecase4.jpg)
 
 
   **2. 일반화 관계**
@@ -69,8 +63,7 @@ mermaid: true
 - `표기 방법`
   - 구체적인 유스케이스에서 일반화된 유스케이스 방향으로 끝부분이 삼각형 테두리로 표현된 화살표를 실선으로 연결하여 표현한다.
 
-
-  ![image](/assets/img/UML/Usecase5.jpg)  
+![image](/assets/img/UML/Usecase5.jpg)  
 
 
 **3. 확장 관계(선택적 관계)**
@@ -85,13 +78,11 @@ mermaid: true
   - 글을 쓰거나 수정하는 경우 로그인을 해야한다.
   - 글을 작설할 때, 경우에 따라서 그림파일을 업로드 할 수 있어야 한다.
 
-
-  ![image](/assets/img/UML/Usecase6.jpg)
+![image](/assets/img/UML/Usecase6.jpg)
 
 
 
 ## 잘못된 유스케이스 다이어그램
-
 
 ![image](/assets/img/UML/Usecase7.jpg)
 
@@ -107,6 +98,5 @@ mermaid: true
 
 
 ## 올바르게 수정한 유스케이스 다이어그램
-
 
 ![image](/assets/img/UML/Usecase8.jpg)
