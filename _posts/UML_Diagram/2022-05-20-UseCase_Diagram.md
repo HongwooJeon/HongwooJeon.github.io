@@ -2,8 +2,8 @@
 title: Use Case 다이어그램
 author: Banjung
 date: 2022-05-20 10:00:00 +0800
-categories: S/W 공학, Use Case 다이어그램]
-tags: [S/W 공학]
+categories: 소프트웨어 공학, Use Case 다이어그램]
+tags: [소프트웨어 공학]
 math: true
 mermaid: true
 ---
@@ -11,7 +11,9 @@ mermaid: true
 ## 유스케이스 다이어그램(Use Case Diagram)
 - 시스템에서 제공해야하는 기능이나 서비스를 명세하는 단계로 사용자와 시스템 사이의 상호작용을 보여준다.
 
+
 ![image](/assets/img/UML/Usecase1.jpg)
+
 
 ### 시스템 범위
 - 위의 예제를 살펴 봤을 때, 많은 사람들이 위 Use case 다이어그램이 ATM시스템을 모델링하고 잇는 중 이라는 것을 알 수 있다.
@@ -24,7 +26,9 @@ mermaid: true
 - 유스케이스의 이름은 상호작용 수행의 목적을 단순하고 명료하게 기술한다.
 - 위 예제의 ATM 시스템은 예금, 조회, 시스템 구동, 시스템 종료, 사용자 인증 기능을 제공해야 한다.
 
+
 ![image](/assets/img/UML/Usecase2.jpg)
+
 
 ### 액터(Actor)
 - 액터는 시스템 외부에 존재하며 시스템과 상호작용을 하는 모든 것을 나타낸다.
@@ -41,9 +45,11 @@ mermaid: true
 - 위 예제에서는 ATM을 도와주는 외부 시스템으로 인증, 은행 시스템이 있다.
 - `참고` 액터이름은 구체적이면 안된다.
 
+
 ![image](/assets/img/UML/Usecase3.jpg)
 
-### 관례(Relationship)
+
+### 관계(Relationship)
 - 유스케이스 다이어그램에서 관계는 엑터와 유스케이스, 유스케이스와 유스케이스 사이에서 나타나며 서로 상호작용을 한다는 의미로 해석하면 3가지 종류의 관계가 있다.
 
 **1. 포함 관계(필수적 관계)**
@@ -54,12 +60,15 @@ mermaid: true
 - `표기 방법`
   - 원래의 유스케이스에서 새롭게 만들어진 유스케이스 방향으로 화살표를 점섬으로 연결하고 `<<include>>`를 표기한다.
 
+
   ![image](/assets/img/UML/Usecase4.jpg)
+
 
   **2. 일반화 관계**
 - 보편적인 유스케이스와 구체적인 유스케이스 사이에 존재한다.
 - `표기 방법`
   - 구체적인 유스케이스에서 일반화된 유스케이스 방향으로 끝부분이 삼각형 테두리로 표현된 화살표를 실선으로 연결하여 표현한다.
+
 
   ![image](/assets/img/UML/Usecase5.jpg)  
 
@@ -76,12 +85,16 @@ mermaid: true
   - 글을 쓰거나 수정하는 경우 로그인을 해야한다.
   - 글을 작설할 때, 경우에 따라서 그림파일을 업로드 할 수 있어야 한다.
 
+
   ![image](/assets/img/UML/Usecase6.jpg)
+
 
 
 ## 잘못된 유스케이스 다이어그램
 
+
 ![image](/assets/img/UML/Usecase7.jpg)
+
 
 
 - 예제의 왼쪽은 유스케이스 다이어그램을 흐름도처럼 그린 경우이다.
@@ -94,5 +107,6 @@ mermaid: true
 
 
 ## 올바르게 수정한 유스케이스 다이어그램
+
 
 ![image](/assets/img/UML/Usecase8.jpg)

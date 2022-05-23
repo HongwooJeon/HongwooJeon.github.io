@@ -2,8 +2,8 @@
 title: UML 다이어그램
 author: Banjung
 date: 2022-05-20 10:00:00 +0800
-categories: S/W 공학, UML 다이어그램]
-tags: [S/W 공학]
+categories: 소프트웨어, UML 다이어그램]
+tags: [소프트웨어 공학]
 math: true
 mermaid: true
 ---
