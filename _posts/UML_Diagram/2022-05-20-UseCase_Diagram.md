@@ -2,7 +2,7 @@
 title: Use Case 다이어그램
 author: Banjung
 date: 2022-05-20 10:00:00 +0800
-categories: 소프트웨어 공학, Use Case 다이어그램]
+categories: [소프트웨어 공학, UseCase 다이어그램]
 tags: [소프트웨어 공학]
 math: true
 mermaid: true
